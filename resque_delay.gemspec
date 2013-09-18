@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "resque_delay"
   spec.version       = ResqueDelay::VERSION
   spec.authors       = ["Alexey Kisel"]
-  spec.email         = ["aki@jetthoughts.com"]
+  spec.email         = ["kisel.alexey@gmail.com"]
   spec.description = spec.summary       = 'Allow execute methods in background without adding new jobs. Like .delay method in DelayedJob'
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/xmarvin/resque_delay"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
